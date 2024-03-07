@@ -69,5 +69,4 @@ Happy coding with Matcha Configs! ✨🍵
 
 ---
 
-Made with 💚 and ⌨️ by [Your Name]
-```
+Made with 💚 and ⌨️ by barthollomew [nathan]
