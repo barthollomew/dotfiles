@@ -1,5 +1,3 @@
-# My Configs: nvim + iterm2 🍵
-
 This repository contains my personal configuration files for Neovim (nvim) and iTerm2 quick start. Started off as AstroVim default starter.
 
           |\\\\ _,,,---,,_
