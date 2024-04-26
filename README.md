@@ -1,12 +1,15 @@
-This repository contains my personal configuration files for Neovim (nvim) and iTerm2 quick start. Started off as LazyVim default starter.
+This repository contains my personal configuration files for Neovim (nvim) and iTerm2 quick start. Started off as [LazyVim](https://github.com/LazyVim/LazyVim) default starter. 
 
           |\\\\ _,,,---,,_
      ZZZzz /,`.-'`'    -. ;-;;,_
          |,4-  ) )-,_. ,\\\\ (  `'-'
         '---''(_/--'  `-'\\\\\_)
 
-## 🍵 Plugins
+## 🍵 Main Plugins (work in progress...)
 
+- **fugitive.lua**: Git integration using Fugitive
+- **surround.lua**: Surround selection with characters
+- **copilot.lua**: GitHub Copilot integration
 - **aerial.lua**: Code outline and navigation
 - **close-buffer.lua**: Close buffer functionality
 - **code-annotation.lua**: Code annotation support
