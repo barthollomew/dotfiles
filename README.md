@@ -1,4 +1,4 @@
-This repository contains my personal configuration files for Neovim (nvim) and iTerm2 quick start. Started off as [LazyVim](https://github.com/LazyVim/LazyVim) default starter. 
+This repository contains my personal configuration files for Neovim (nvim) and zshrc quick start. Started off as [LazyVim](https://github.com/LazyVim/LazyVim) default starter. 
 
           |\\\\ _,,,---,,_
      ZZZzz /,`.-'`'    -. ;-;;,_
