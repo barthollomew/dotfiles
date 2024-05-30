@@ -30,11 +30,11 @@ return {
         },
       },
       left = {
-        "neo-tree",
         { title = "Spectre", ft = "spectre_panel", size = { width = 0.3 } },
         { title = "UndoTree", ft = "undotree" },
       },
       right = {
+        "neo-tree",
         {
           title = "CopilotChat.nvim",
           ft = "copilot-chat",
