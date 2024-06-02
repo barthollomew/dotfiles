@@ -1,0 +1,115 @@
+// Need to Install: JetBrains Mono, Fira Code fonts, Neovim, Ayu Theme, Monokai Theme, Fluent Icons, Apc Customize UI++
+
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Ayu Mirage",
+  "editor.fontFamily": "JetBrains Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 12,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "workbench.layoutControl.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "proportional",
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.tabCloseButton": "off",
+  "breadcrumbs.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.padding.bottom": 14,
+  "editor.padding.top": 14,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.codeLens": false,
+  "editor.glyphMargin": false,
+  "editor.foldingHighlight": false,
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.matchBrackets": "near",
+  "editor.guides.highlightActiveBracketPair": false,
+  "editor.parameterHints.enabled": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.smoothScrolling": true,
+  "editor.lineNumbers": "on",
+  "explorer.compactFolders": false,
+  "window.autoDetectHighContrast": false,
+  "zenMode.fullScreen": false,
+  "editor.lineHeight": 24,
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "apc.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden",
+    "trafficLightPosition": {
+      "x": 9,
+      "y": 9
+    }
+  },
+  "window.titleBarStyle": "native",
+  "apc.statusBar": {
+    "position": "editor-bottom"
+  },
+  "apc.activityBar": {
+    "position": "top",
+    "size": 36
+  },
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.minimap.showSlider": "mouseover",
+  "update.mode": "manual",
+  "apc.header": {
+    "height": 36
+  },
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/opt/homebrew/bin/nvim",
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["y", "y"],
+      "after": ["\"", "+", "y", "y"]
+    },
+    {
+      "before": ["y", "w"],
+      "after": ["\"", "+", "y", "w"]
+    },
+    {
+      "before": ["y", "i", "w"],
+      "after": ["\"", "+", "y", "i", "w"]
+    },
+    {
+      "before": ["y", "a", "w"],
+      "after": ["\"", "+", "y", "a", "w"]
+    },
+    {
+      "before": ["y", "y"],
+      "after": ["\"", "+", "y", "y"]
+    },
+    {
+      "before": ["y", "s"],
+      "after": ["\"", "+", "y", "s"]
+    },
+    {
+      "before": ["y", "i", "s"],
+      "after": ["\"", "+", "y", "i", "s"]
+    },
+    {
+      "before": ["y", "a", "s"],
+      "after": ["\"", "+", "y", "a", "s"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+
+  ],
+  "vim.commandLineModeKeyBindings": [
+
+  ]
+}

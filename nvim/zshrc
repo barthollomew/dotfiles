@@ -36,15 +36,17 @@
 # - Zsh plugins: zsh-syntax-highlighting, zsh-autosuggestions
 # - 'thefuck' command (for correcting previous console commands)
 
-# ESLINT CONFIG
-export PATH="$PATH:$(npm get prefix)/bin"
-
 # iTerm2 Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Custom 'cd' command: automatically runs 'ls' after 'cd'
 cd() {
     builtin cd "$@" && lsd
+}
+
+# Git commit and push with a single command
+function gcp() {
+  git commit -am "$1" && git push
 }
 
 # Directory navigation aliases
@@ -68,7 +70,6 @@ alias nvconfig='cd ~/.config/nvim/'
 alias zshrc='nvim ~/.zshrc'  
 
 # Git command shortcuts
-alias gi='git init'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
@@ -79,19 +80,6 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gd='git diff'
 alias gl='git log'
-
-# Git status, add, and commit with a single command
-function gac() {
-  git status && git add . && git commit -m "$1"
-}
-
-# Git commit and push with a single command
-function gcp() {
-  git commit -am "$1" && git push
-}
-
-# Open in web
-alias openrepo='gh repo view --web'
 
 # Set Neovim as default editor
 export EDITOR='nvim'
