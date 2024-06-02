@@ -1,11 +1,11 @@
-This repository contains my personal configuration files for Neovim (nvim) and zshrc quick start. Started off as [LazyVim](https://github.com/LazyVim/LazyVim) default starter. 
+NVCONFIG:
 
           |\\\\ _,,,---,,_
      ZZZzz /,`.-'`'    -. ;-;;,_
          |,4-  ) )-,_. ,\\\\ (  `'-'
         '---''(_/--'  `-'\\\\\_)
 
-## 🍵 Main Plugins (work in progress...)
+## 🍵 Main Plugins 
 
 - **fugitive.lua**: Git integration using Fugitive
 - **surround.lua**: Surround selection with characters
