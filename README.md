@@ -1,6 +1,6 @@
 # My Config Files
 
-This is the best config in the world. 
+The laziest config in the world. 
 
 This repository contains my configuration files optimized for Vim usage. 
 
