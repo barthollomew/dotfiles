@@ -1,8 +1,6 @@
 # My Config Files
 
-The laziest config in the world. 
-
-This repository contains my configuration files optimized for Vim usage. 
+Personal config files for nvim/iterm2 terminal-based MACOS setup. 🍵
 
 It includes configurations for:
 
